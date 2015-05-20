@@ -34,7 +34,7 @@ h3 {
     margin-top: 12px;
   	margin-left: 2px;
   	background: #656564;
-  	color: white;
+  	color: #656564;
   	text-align: center;
   	font-size: 25px;
   	display: inline-block;
@@ -57,15 +57,18 @@ p {
 	width: 100%;
 }
 
-h1{
+h1 {
 	font-size: 24pt;
 	font-family: 'Brandon Grotesque Black';
 	text-transform: uppercase;
 	color: orange;
 }
 
-h2{
-	font-size: 12pt;
+h2 {
+	font-weight: bold;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-bottom: 5px;
 }
 
 
@@ -77,7 +80,10 @@ h2{
   font-size: 12pt;
   height: 45px;
   line-height: 24pt;
-  margin: 15px auto;
+  margin-top: 55px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 15px;
   text-align: center;
   width: 500px;
@@ -102,85 +108,67 @@ input[type=text]:focus {
 	outline: none;
 }
 
-.home {
-	background-color: #656564;
-	border: none;
-	color: #fff;
-	cursor: pointer;
-    display: inline-block;
-    font-size: 12pt;
-    height: 30px;
-    line-height: 24pt;
-    margin: 5px;
-    margin-left: -500px;
-    padding: 0 15px;
-    text-align: center;
-}
-
-.home:hover{
-	background-color: #575757;
-}
 
 button {
-	background-color: #656564;
-	border: none;
-	color: #fff;
-	cursor: pointer;
-    display: inline-block;
-    font-size: 12pt;
-    height: 30px;
-    line-height: 24pt;
-    margin: 5px;
-    margin-left: -160px;
-    padding: 0 15px;
-    text-align: center;
+	height: 24px;
+	width: 24px;
+	background: none;
+	font-size: 18px;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 0 0 4px 0;
+	display: none;
 }
 
-button:hover{
-	background-color: #575757;
+.Checked {
+	height: 18px;
+	background-image: url(http://i1367.photobucket.com/albums/r792/worldofentrepreneur/check-mark_zpsu3cqfmyu.png);
+	background-image: url('..images/check-mark.png');
 }
 
-.dashed{
-	background-color: transparent;
-	color: #575757;
-	border: 2px solid #575757;
-	border-style: dashed;
-}
-.full-width{
-	width: 500px;
-}
-.delete{
-	cursor: pointer;
-	margin-top: 5px;
-	float: left;
-	height: 22px;
-	width: 22px;
-	background: url('../images/x-mark.png');
+.strike {
+	text-decoration: line-through;
 }
 
-.alt-delete{
-	background: url('../images/alt-x-mark.png');
-}
-
-.cross-off{
-	cursor: pointer;
-	margin-top: 5px;
+.delete {
 	float: right;
-	height: 22px;
-	width: 22px;
-	background: url('../images/check-mark.png');
+	margin-top: 5px;
+	('../images/check-mark.png');
 }
 
-.alt-cross-off{
-	background: url('../images/alt-check-mark.png');
+.show {
+	display: inline;
 }
 
-.strikethrough{
-	background-color: white;
-	border: 2px solid gray;
-	text-decoration: line-through !important;
+#unordered-list {
+	list-style: none;
 }
 
-a.home {
-	text-decoration: none;
+#unordered-list li {
+	width: 500px;
+  	height: 30px;
+  	line-height: 24pt;
+  	background-color: #575757;
+  	font-weight: normal;
+  	color: #fff;
+	display: table;
+    font-size: 12pt;
+	margin: 2px auto;
+	padding: 0 15px;
+}
+
+.box {
+	float: left;
+  	margin-top: 5px;
+  	background-image: url('..images/check-mark.png');
+}
+
+
+.box {
+  float: left;
+  margin-top: 5px;
+  margin-right: 30px;
+  height: 22px;
+  width: 22px;
+  background-image: url(http://i1367.photobucket.com/albums/r792/worldofentrepreneur/check-mark_zpsu3cqfmyu.png);
 }
